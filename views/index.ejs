@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinterest</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="w-full h-screen bg-[url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] flex items-center justify-center">
+    <div class="w-[30vw] bg-white px-5 py-10 rounded-[30px]">
+      <i class="ri-pinterest-fill"></i>
+      <h1 class="text-2xl text-center leading-none font-medium text-zinc-700 tracking-tighter capitalize ">Welcome to Pinterest</h1>
+      <form action="/login" method="post">
+        <input class="block border-2 w-full px-3 py-2 mt-4 rounded-md" type="text" name="username" placeholder="username">
+        <input class="block border-2 w-full px-3 py-2 mt-4 rounded-md" type="password" name="password" placeholder="password">
+        <a href="" class="mt-2 inline-block px-2 font-regular text-zinc-500 text-[0.8rem]">Forgot Password?</a>
+        <input class="block w-full px-3 py-2 mt-4 bg-red-600 rounded-full text-white" type="submit" name="submit" value="Login" id="">
+        <p class="text-center text-[0.6rem] font-regular text-zinc-600 mx-auto mt-5 w-3/4">By continuing, you agree to Pinterest's Terms of Service and acknowledge that you've read our Privacy Policy.</p>
+      </form>
+      <a href="/register" class="inline-block text-[0.9rem] mt-7 font-regular text-zinc-700 text-center w-full">Don't have an Account?</a>
+    </div>
+  </div>
+</body>
+</html>
